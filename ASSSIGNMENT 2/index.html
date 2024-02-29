@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets//owl.carousel.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+  <title>food website</title>
+  <!-- custom css  -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- header section start -->
+  <header>
+    <a href="#" class="logo">Foodie.</a>
+    <nav class="navbar">
+      <a href="#home" class="active">home</a>
+      <a href="#dishes">dishes</a>
+      <a href="#about">about us</a>
+      <a href="#menu">menu</a>
+      <a href="#review">review</a>
+      <a href="order.html" target="_blank">order</a>
+      <a href="#contact">Contact Us</a>
+      <a href="logo.html" target="_blank">Log In</a>
+    </nav>
+      <div>
+      </div>
+  </header>
+  <!-- header section end -->
+
+  <!-- home section start  -->
+  <div id="button"></div>
+  <section class="home" id="home">
+    <div class="swiper home-slider">
+      <!-- <div class="swiper-wrapper wrapper"> -->
+        <div class="carousel owl-carousel">
+        <div class="swiper-slide slider">
+          <div class="content">
+            <span>our Special dish</span>
+            <h3>spicy noodles</h3>
+            <p>Spicy Noodles are a glass noodle stir fry loaded with tender beef, mushrooms, carrots, onions and bell peppers all bathed in a spicy soy, ginger, garlic sesame sauce</p>
+            <a href="order.html" class="btn" onclick="fun()">order now</a>
+          </div>
+          <div class="images">
+            <img src="img/home-img-1.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide slider">
+          <div class="content">
+            <span>our Special dish</span>
+            <h3>fried chicken</h3>
+            <p>Fried chicken, also known as Southern fried chicken, is a dish consisting of chicken pieces that have been coated with seasoned flour or batter and pan-fried, deep fried, pressure fried, or air fried.</p>
+            <a href="order.html" class="btn" onclick="fun()">order now</a>
+          </div>
+          <div class="images">
+            <img src="img/home-img-2.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide slider">
+          <div class="content">
+            <span>our Special dish</span>
+            <h3>hot pizza</h3>
+            <p>Margherita pizza recipe is tomato sauce with fresh tomatoes, mozzarella cheese and basil </p>
+            <a href="order.html" class="btn" onclick="fun()">order now</a>
+          </div>
+          <div class="images">
+            <img src="img/home-img-3.png" alt="">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- home section end  -->
+
+  <!-- dishes section start  -->
+  <section class="dishes" id="dishes">
+    <h3 class="sub-heading">our dishes</h3>
+    <h1 class="heading">popular dishes</h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="img/dish-1.png" alt="">
+        <h3>Maharaja Burger</h3>
+        <span>Rs.120</span>
+        <a href="order.html" class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+        <img src="img/dish-2.png" alt="">
+        <h3>Veggie Nuggets</h3>
+        <span>Rs.150</span>
+        <a href="order.html" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="img/dish-3.png" alt="">
+        <h3>Butter chicken</h3>
+        <span>RS.380</span>
+        <a href="order.html" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="img/dish-4.png" alt="">
+        <h3>Monster pizza</h3>
+        <span>Rs.350</span>
+        <a href="order.html" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="img/dish-5.png" alt="">
+        <h3>Hot choco cookies</h3>
+        <span>Rs.130</span>
+        <a href="order.html" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="img/dish-6.png" alt="">
+        <h3>Fried chicken</h3>
+        <span>Rs.200</span>
+        <a href="order.html" class="btn">add to cart</a>
+      </div>
+    </div>
+  </section>
+  <!-- dishes section end -->
+
+  <!-- about section start  -->
+  <section class="about" id="about">
+    <h3 class="sub-heading">About us</h3>
+    <h1 class="heading">why choose us</h1>
+<div class="row">
+  <div class="images">
+    <img src="img/about-img.png" alt="">
+  </div>
+  <div class="content">
+    <h3>Best food Website in the India</h3>
+    <p>Offers food delivery services in 10000+ cities across 24 countries.The website has more than 100 million active foodies</p>
+    <p>Foodies can login and add their reviews about restaurants and food.Available in both desktop and mobile versions</p>
+    <div class="icons-container">
+      <div class="icons">
+        <span>free delivery</span>
+      </div>
+      <div class="icons">
+        <span>easy payments</span>
+      </div>
+      <div class="icons">
+        <span>24/7 service</span>
+      </div>
+    </div>
+    <a href="#" class="btn">learn more..</a>
+  </div>
+</div>
+  </section>
+  <!-- about section end  -->
+
+  <!-- /* menu section start  */ -->
+<section class="menu" id="menu">
+  <h3 class="sub-heading">Our menu</h3>
+  <h1 class="heading">today's speciality</h1>
+<div class="box-container">
+  <div class="box">
+    <div class="images">
+      <img src="img/menu-1.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>Margerita pizza</h3>
+      <p> These ingredients include red tomato sauce, white mozzarella and fresh green basil.</p>
+      <a href="order.html" class="btn">add to cart</a>
+      <span>Rs.200</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="images">
+      <img src="img/menu-2.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>Veg mayo burger</h3>
+      <p>Indian style veg burger blended with mayonise and chesse slice and fully vegetable</p>
+      <a href="order.html" class="btn">add to cart</a>
+      <span>Rs.100</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="images">
+      <img src="img/menu-3.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>pancake</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minima!</p>
+      <a href="order.html" class="btn">add to cart</a>
+      <span>Rs.230</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="images">
+      <img src="img/menu-4.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>waffle</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minima!</p>
+      <a href="order.html" class="btn">add to cart</a>
+      <span>Rs.200</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="images">
+      <img src="img/menu-5.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>Butter cookie cake</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minima!</p>
+      <a href="order.html" class="btn">add to cart</a>
+      <span>Rs.180</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="images">
+      <img src="img/menu-6.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>vanila cupcake</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minima!</p>
+      <a href="order.html" class="btn">add to cart</a>
+      <span>Rs.299</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="images">
+      <img src="img/menu-7.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>Vegan juice</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minima!</p>
+      <a href="order.html" class="btn">add to cart</a>
+      <span>Rs.140</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="images">
+      <img src="img/menu-8.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>Rasperry Acai bowl</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minima!</p>
+      <a href="order.html" class="btn">add to cart</a>
+      <span>Rs.110</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="images">
+      <img src="img/menu-9.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>lemon juice</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minima!</p>
+      <a href="order.html" class="btn">add to cart</a>
+      <span>Rs.110</span>
+    </div>
+  </div>
+</div>
+</section>
+  <!-- /* menu section end */ -->
+<!-- review section start  -->
+<section class="review" id="review">
+  <h3 class="sub-heading">Customer's review</h3>
+  <h1 class="heading">what they say</h1>
+  <!-- <div class="swiper review-sliver"> -->
+    <!-- <div class="swiper-wrapper"> -->
+      <div class="swiper-slide slider">
+        <div class="user">
+          <img src="img/pic-1.png" alt="">
+          <div class="user-info">
+            <h3>john deo</h3>
+          </div>
+        </div>
+        <p> Awesome and fast delivery Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, accusantium ullam cumque, dicta autem illum ea aspernatur, sequi mollitia eligendi consequuntur? Itaque repellat, consequuntur ab amet tenetur animi dignissimos atque.</p>
+      </div>
+      <div class="swiper-slide slider">
+        <div class="user">
+          <img src="img/pic-2.png" alt="">
+          <div class="user-info">
+            <h3>priyanka chahar</h3>
+          </div>
+        </div>
+        <p> fast delivery and food is very hygiene Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, accusantium ullam cumque, dicta autem illum ea aspernatur, sequi mollitia eligendi consequuntur? Itaque repellat, consequuntur ab amet tenetur animi dignissimos atque.</p>
+      </div>
+      <div class="swiper-slide slider">
+        <div class="user">
+          <img src="img/pic-3.png" alt="">
+          <div class="user-info">
+            <h3>pradeep narval</h3>
+          </div>
+        </div>
+        <p> Nice sevice by Foodie and quick delivery Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, accusantium ullam cumque, dicta autem illum ea aspernatur, sequi mollitia eligendi consequuntur? Itaque repellat, consequuntur ab amet tenetur animi dignissimos atque.</p>
+      </div>
+      <div class="swiper-slide slider">
+        <div class="user">
+          <img src="img/pic-4.png" alt="">
+          <div class="user-info">
+            <h3>simi Agrawal</h3>
+          </div>
+        </div>
+        <p> Must try this app go for it Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, accusantium ullam cumque, dicta autem illum ea aspernatur, sequi mollitia eligendi consequuntur? Itaque repellat, consequuntur ab amet tenetur animi dignissimos atque.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer section start  -->
+<section class="footer" id="contact">
+  <div class="box-container">
+    <div class="box">
+      <h3>locations</h3>
+      <a href="#">India</a>
+      <a href="#">Japan</a>
+      <a href="#">USA</a>
+      <a href="#">France</a>
+      <a href="#">Bangladesh</a>
+      <a href="#">Pakistan</a>
+    </div>
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#home">home</a>
+      <a href="#dishes">dishes</a>
+      <a href="#about">about</a>
+      <a href="#menu">menu</a>
+      <a href="#review">review</a>
+      <a href="#order">order</a>
+    </div>
+    <div class="box">
+      <h3>Contact Info</h3>
+      <a href="#">079-405023456</a>
+      <a href="#">+916351840158</a>
+      <a href="#">developeryash94@gmail.com</a>
+      <a href="#">developeryash80@gmail.com</a>
+      <a href="#">Ahmedabad,India-380015</a>
+      
+    </div>
+    <div class="box">
+      <h3>follow us</h3>
+      <a href="#">facebook</a>
+      <a href="#">twitter</a>
+      <a href="#">instragram</a>
+      <a href="#">linkedin</a>
+    </div>
+  </div>
+<div class="credit">copyright @ 2023 by <span>developer yash</span></div>
+</section>
+<script src="sda.js"></script>
+<script src="topup.js"></script>
+</body>
+</html>
